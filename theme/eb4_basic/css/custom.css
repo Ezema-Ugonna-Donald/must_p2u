@@ -1,0 +1,56 @@
+/* 여기에 작업 또는 수정할 당신의 css style을 설정하세요. (customizations) */
+.header-wrap-new {position:relative;width:100svw;z-index:1002;border-bottom: 2px solid #606878;}
+.top-header-new {max-width:75svw; margin:0 auto; padding: 1rem; display: flex; flex-direction: row; justify-content: space-between;}
+.top-header-nav-new {margin-top: 1rem;}
+.top-header-nav-other {display: none;}
+.top-header-nav-new > ul > li:first-of-type {color: #A445DE;}
+.top-header-nav-new > ul > li:first-of-type > span {color: #606878;}
+.top-header-nav-new > ul > li {color: #2F333C; display: inline-block; margin-right: 1rem;}
+.top-header-nav-new > ul > li:last-of-type > form > div {padding: 5px 14px; background-color: #F8F9FC; border: none; max-height: 38px; border-radius: 100px;}
+.top-header-nav-new > ul > li:last-of-type > form > div > input {background: transparent; border: none; outline: none;}
+.top-header-nav-new > ul > li:last-of-type > form > div > input::placeholder {color: #9DA6BB;}
+#top-menu {cursor: pointer;}
+/* .top-header-nav-new > ul > li:last-of-type > form > div > img {width: 24px; height: 24px;} */
+.top-nav-menu {display: none; position: absolute;top: 42%; right: 25%; border: 1px solid #606878; padding: 2px; background-color: #FFFFFF; width: 160px; border-radius: 6px; box-shadow: 0px 2px 8px 0px rgba(255, 255, 255, 0.05);}
+/* #top-nav-menu > ul {border: 1px dotted ;} */
+.top-nav-menu > ul > li > a {display: block; padding: 12px 12px; color: #17191E;}
+.top-nav-menu > ul > li > a:hover {background-color: #F7F3FF; color: #17191E;}
+.bottom-header-new {max-width:75svw; margin:0 auto; padding-top: 1rem; padding-left: 1rem; padding-right: 1rem; padding-bottom: 0rem; display: flex; flex-direction: row; justify-content: space-between; height: 100%;}
+.bottom-header-nav-new {height: 100%;}
+.bottom-header-nav-new > ul > li {display: inline-block;}
+.bottom-header-nav-new > ul > li > span {cursor: pointer; color: #17191E; font-weight: bold; display: inline-block; margin-right: 1rem; height: 100%; padding: 20px 8px;transition:all .3s ease 0s;}
+.bottom-header-nav-new > ul > li > span:hover {color: #A445DE; border-bottom: 2px solid #A445DE;}
+/* Bottom Header Menu */
+.bottom-header-menu {display: none;}
+.bottom-nav-menu {display: flex; position: absolute; left: 13%; width: 473px; flex-direction: row; justify-items: center; justify-content: center; padding: 2px; border: 1px solid #606878; background-color: #FFFFFF;}
+.bottom-nav-menu > div {flex-basis: 33%;}
+.bottom-nav-menu > div > ul > li > a {display: flex; flex-direction: row; justify-content: space-between; padding: 2px; padding: 10px 8px 10px 12px; color: #17191E;}
+.bottom-nav-menu > div:first-of-type > ul > li > a:hover {color: #FFFFFF; background-color: #2F333C;}
+.bottom-nav-menu > div > ul > li > a:hover {color: #A445DE; background-color: #F8F9FC;}
+.bottom-nav-menu > div > ul > li > a > img {rotate: 270deg; background-color: #FFFFFF; margin-left: 15px;}
+.bottom-nav-menu > div:first-of-type > ul > li > a > img:hover {background-color: #FFFFFF;}
+
+/* Footer */
+.footer-new {width:100svw; background-color: #17191E;}
+.footer-new > div {max-width:75svw; margin:0 auto; padding: 3rem 0rem;}
+.footer-new > div > div:first-of-type {display: flex; flex-direction: row; justify-content: space-between; width: 100%; padding-bottom: 3rem; }
+.footer-new > div > div > ul > li {display: inline-block; color: #FFFFFF; margin-right: 1rem;}
+.footer-new > div > div > p:first-of-type {color: #FFFFFF;margin-bottom: 0rem;}
+.footer-new > div > div > p > span {color: #606878;}
+.footer-new > div > div > p {color: #606878;margin-bottom: 1rem;}
+.copyright {color: #606878;}
+.terms {margin-top: 2rem;}
+
+@media screen and (max-width: 992px) {
+    .top-header-new {text-align: center; justify-content: center; justify-items: center;}
+    .top-header-nav-new {display: none;}
+    .top-header-nav-other {display: inline-block; position: absolute; right: 5%; top: 29%; color: #A445DE;}
+    .bottom-header-new {display: none;}
+
+    .footer-new > div > div:first-of-type {display: block; }
+    .footer-new > div > div > ul {margin-top: 2rem;}
+    .footer-new > div > div > ul > li {display: block; margin-bottom: 1rem;}
+    .footer-new > div > div > p {font-size: 14px;}
+}
+
+.show {display: block;}
